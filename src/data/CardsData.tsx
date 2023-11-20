@@ -1,7 +1,7 @@
 const CardsData = [
   {
     title: 'Miami Beaches',
-    image: '/images/miami.png',
+    image: 'public/images/miami.png',
     model: 'Chill',
     value: 850,
     time: '200',
