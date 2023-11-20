@@ -1,0 +1,31 @@
+.info {
+  text-align: center;
+}
+
+.title {
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--gray-secondary-color);
+
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-family: var(--poppins-font);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--gray-color);
+}
+
+/* responsiveness adjustments */
+
+@media screen and (max-width: 760px) {
+  .title {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+}

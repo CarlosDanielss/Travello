@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  height: 445px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(C:\Users\Dusky\Desktop\Projects\TravelWebsite\src\assets\register-background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.content {
+  width: 721px;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+
+  text-align: center;
+}
+
+.content h1 {
+  font-family: var(--poppins-font);
+  font-weight: 600;
+  font-size: 38px;
+  color: var(--gray-color);
+}
+
+.content button {
+  width: 235px;
+  height: 53px;
+
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--white-color);
+
+  padding: 16px;
+  border: none;
+  border-radius: 40px;
+  background: var(--main-color);
+  transition: 0.2s ease-in-out;
+
+  cursor: pointer;
+}
+
+.content button:hover {
+  background: var(--main-secondary-color);
+}

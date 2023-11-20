@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #177ba5;
+  --main-secondary-color: #126487;
+  --bg-color: #f6f6f6;
+  --white-color: #fff;
+  --black-color: #000;
+  --beige-color: #f4f2ee;
+  --gray-color: #292d32;
+  --gray-secondary-color: #818b98;
+  --gray-tertiary-color: #67717e;
+  --gray-quartenary-color: #7f7f7f;
+  --green-color: #d6edeb;
+  --dark-green-color: #2d8985;
+  --dark-pink-color: #f178b6;
+  --pink-color: #fcddec;
+
+  --abril-font: 'Abril Fatface', serif;
+  --poppins-font: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+li {
+  list-style-type: none;
+}

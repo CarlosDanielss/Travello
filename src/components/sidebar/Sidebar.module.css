@@ -1,0 +1,39 @@
+.container {
+  width: 320px;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 0;
+  right: -320px;
+  z-index: 9;
+  transition: 0.3s ease-in-out;
+
+  background: var(--white-color);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.openSidebar {
+  right: 0;
+}
+
+.content {
+  width: 240px;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbarItem a {
+  font-family: var(--poppins-font);
+  font-weight: 500;
+  font-size: 22px;
+  color: var(--gray-tertiary-color);
+}

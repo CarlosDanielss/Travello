@@ -1,0 +1,59 @@
+.container {
+  display: block;
+}
+
+.burguerMenu {
+  width: 32px;
+  height: 25px;
+
+  display: block;
+  position: relative;
+  z-index: 10;
+
+  cursor: pointer;
+}
+
+span {
+  width: 100%;
+  height: 4px;
+
+  display: block;
+  justify-content: right;
+
+  border-radius: 8px;
+  background: var(--white-color);
+  transition: 0.25s all;
+  position: absolute;
+}
+
+span:nth-child(1) {
+  top: 0;
+}
+
+span:nth-child(2) {
+  top: 9px;
+  right: 0;
+}
+
+span:nth-child(3) {
+  top: 18px;
+  right: 0;
+}
+
+/* Effect rotate menu */
+
+.closeMenu:nth-child(1) {
+  transform: rotate(-45deg);
+  top: 9px;
+  background: var(--gray-color);
+}
+
+.closeMenu:nth-child(2) {
+  opacity: 0;
+}
+
+.closeMenu:nth-child(3) {
+  transform: rotate(45deg);
+  top: 9px;
+  background: var(--gray-color);
+}
